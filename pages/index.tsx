@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Button, Htag, P, Tag, Rating } from "../Components/index";
+import { withLoyout } from "../Layout/Layout";
 
-export default function Home(): JSX.Element {
+function Home(): JSX.Element {
   const [rating, setRating] = useState<number>(4);
   return (
     <>
       <Htag tag="h1">Hello</Htag>
-      <Button appearance="primary" onClick={() => setCounter(x => x + 1)}>Button</Button>
+      <Button appearance="primary">Button</Button>
       <Button appearance="ghost" arrow="right">Button</Button>
       <P size="l">dddd</P>
       <P size="m">dddd</P>
@@ -20,3 +21,5 @@ export default function Home(): JSX.Element {
     </>
   )
 };
+
+export default withLoyout(Home);
