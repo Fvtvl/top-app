@@ -8,7 +8,7 @@ export const Tag = ({ children, size = 's', color = 'ghost', href, className, ..
         className={cn(styles.tag, className, {
             [styles.s]: size === 's',
             [styles.m]: size === 'm',
-            [styles.ghost]: color === 'ghost',
+            [styles.orange]: color === 'orange',
             [styles.red]: color === 'red',
             [styles.grey]: color === 'grey',
             [styles.green]: color === 'green',

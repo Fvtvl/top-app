@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 100vh;
+    gap: 20px 30px;
+    grid-template-areas: 
+    "card card card"
+}
+
+
+
+@media (max-width: 765px){
+    .wrapper {
+        grid-template-columns: minmax(320px, 1fr);
+        grid-template-areas: 
+
+    }
+}

@@ -4,6 +4,7 @@ body {
   padding: 0;
   color: var(--black);
   background: #F5F6F8;
+  text-transform: capitalize;
 
   font-family: 'Noto Sans',   sans-serif;
 }
@@ -24,7 +25,8 @@ a {
   --primary: #7653FC;
   --primary-hover: #5432d9;
   --red: #FC836D;
-  --green: #1DC37E;
-  --green-light: #C8F8E4;
+  --green: #1dc37ed0;
+  --green-light: #94f2cbfc;
   --font-family: 'Noto Sans',   sans-serif;
 }
+

@@ -1,9 +1,9 @@
 .tag {
     display: inline-block;
-
     box-sizing: border-box;
-    margin-right: 5px;
     border-radius: 20px;
+
+    margin-left: 5px;
 }
 
 .s {
@@ -16,38 +16,38 @@
 .m {
     padding: 5px 10px;
 
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 18px;
+    line-height: 18px;
 }
 
-.ghost {
-    border: 1px solid var(--grey-light);
+.orange {
+    background-color:#c7a50e;
+    color: black;
 }
 
 .red {
     color: var(--white);
     background-color: #DE0000;
-
     font-weight: bold;
+    position: absolute;
+    bottom: 20px;
 }
 
 .grey {
-    color: var(--white);
-    background-color: #B3C0D9;
+    color: var(--green-light);
+    background-color: #4365a3;
 
     font-weight: bold;
 }
 
 .green {
-    color: var(--green);
+    color: var(--red);
     background-color: var(--green-light);
 
     font-weight: bold;
 }
 
 .primary {
-    color: var(--primary);
-    background-color: none;
-
-    border: 1px solid var(--primary);
+    color: #DE0000;
+    background-color: var(--white);
 }

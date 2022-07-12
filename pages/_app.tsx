@@ -6,7 +6,7 @@ import React from 'react';
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return <>
     <Head>
-      <title>My top-app</title>
+      <title>My PokeDex</title>
       <link rel="preconnect" href="https://fonts.googleapis.com"/> 
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"></link>
     </Head>

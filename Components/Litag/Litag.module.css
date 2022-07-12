@@ -1,0 +1,44 @@
+.wrapper {
+    display: grid;
+
+    border: 1px solid var(--primary);
+    border-radius: 6px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0 30px;
+}
+
+.wrapper:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.wrapper img {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: -25px;
+    top: -15px;
+}
+
+.bug {
+    background-color: #aedf78;
+  }
+  
+  .water {
+    background-color: #43ccff;
+  }
+  
+  .grass {
+    background-color: #00ca91;
+  }
+  
+  .fire {
+    background-color: #e95c4d;
+  }
+  
+  .normal {
+    background-color: #a5a5a5;
+  }
